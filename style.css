@@ -1,0 +1,82 @@
+/* ************** google fonts ************** */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Manrope:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-clr: #3a3a3a;
+    --ff-poppins: 'Poppins', sans-serif;
+    --ff-inter: 'Inter', sans-serif;
+    --ff-manrope: 'Manrope', sans-serif;
+
+}
+
+body{
+    font-family: var(--ff-poppins);
+    font-size: 62.5%;
+
+}
+
+.section-width{
+    max-width: 144em;
+    margin: 0 auto; 
+
+}
+
+/* ************** header section css ************** */
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4em 12em ;
+   
+}
+
+header h2{
+    font-size: 2.4em;
+    font-weight: 700;
+    color: var(--primary-clr);
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.header-nav li {
+    list-style: none;
+    display: inline;
+    
+}
+
+.header-nav li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 2em;
+    font-size: 1.6em;
+    color: var(--primary-clr);
+    font-weight: 600;
+}
+
+.header-nav img:nth-of-type(1){
+    width: 2.4em;
+    height: 2.4em;
+    margin-right: 3em;
+    cursor: pointer;
+}
+
+.header-nav img:nth-of-type(2){
+    width: 3em;
+    height: 3em;
+    cursor: pointer;
+}
+
+/* ************** header banner section css ************** */
