@@ -30,6 +30,7 @@ body {
   color: #fff;
   border: none;
   outline: none;
+  text-transform: capitalize;
   padding: 1em 2em;
   font-size: 1.6em;
   font-weight: 700;
@@ -216,6 +217,14 @@ header h2 {
   font-weight: 500;
 }
 
+.product-info p{
+    font-size: 1.2em;
+    font-family: var(--ff-inter);
+    font-weight: 700;
+    color: #787885;
+    margin-top: .5em;
+}
+
 .see-more {
   position: absolute;
   right: 0;
@@ -229,4 +238,69 @@ header h2 {
 
 .see-more i {
   margin-left: 0.5em;
+}
+
+/* ************** featured product section css ************** */
+
+.featured-product{
+    padding: 12em 12em 5em;
+    display: flex;
+    align-items: center;
+    gap: 10em;
+}
+
+.featured-product img{
+    width: 40em;
+    height: 27em;
+    border-radius: .7em;
+}
+
+.featured-right-div h3{
+    font-size: 3.8em;
+    color: #0a0826;
+    font-weight: 700;
+}
+
+.featured-right-div p{
+    width: 30em;
+    font-weight: 600;
+    font-size: 1.6em;
+    color: #6c6c6c;
+    margin: 1em 0;
+}
+
+/* ************** footer section css ************** */
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #0a0826;
+color: #fff;
+padding: 5em 0;
+}
+
+footer h2{
+    font-size: 2.4em;
+    font-weight: 700;
+
+}
+
+footer p{
+    font-family: var(--ff-manrope);
+    font-weight: 700;
+    color: #85e8ec;
+    font-size: 1.3em;
+    text-align: center;
+    margin: .5em 0;
+}
+
+footer div a i{
+    font-size: 2.2em;
+    margin-right: .8em;
+    color: #fff;
+    margin-top: .5em;
 }
