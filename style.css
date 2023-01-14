@@ -163,6 +163,7 @@ header h2 {
 
 .product-collection {
   padding: 5em 12em 2.5em;
+  position: relative;
 }
 
 .collection-container {
